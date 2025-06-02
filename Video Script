@@ -1,0 +1,63 @@
+**Script for a 3-Minute Video Overview of the Database**
+
+---
+
+**\[Opening Scene: Presenter standing in front of a whiteboard or with a slide showing "B2B EDI Database Overview"]**
+
+**Presenter:**
+"Hi everyone! In this short video, I’ll introduce you to the database I designed to manage the core operations of a B2B system. This database is optimized for electronic data interchange—or EDI—and supports essential workflows like customer management, order processing, material tracking, shipping, and invoicing. Let’s take a closer look!"
+
+---
+
+**\[Slide or whiteboard: A simple diagram showing main entities—Customers, Orders, Materials, Deliveries, Invoices, Warehouse]**
+
+**Presenter:**
+"Our database consists of six key entities: Customers, Orders, Materials, Warehouse, Deliveries, and Invoices. Each plays a critical role in managing the flow of business data.
+
+* **Customers**: This table stores all client details, such as names, contact information, and status.
+* **Orders**: It tracks all customer orders, including the date, status, and the materials being ordered.
+* **Materials and Warehouse**: Materials represent the items we sell, while the Warehouse table keeps stock levels organized and prevents orders for items that aren’t in stock.
+* **Deliveries**: This table manages shipping data, linking each delivery to its corresponding order.
+* **Invoices**: Finally, Invoices record financial transactions, ensuring no deletions and tracking the payment status of each invoice."
+
+---
+
+**\[Slide: Example relationships diagram—arrows between tables (e.g., Customers -> Orders, Orders -> Deliveries)]**
+
+**Presenter:**
+"The database is built on strong relationships between these entities. For example, each customer can place multiple orders, but every order links back to just one customer. Similarly, each order can have multiple deliveries, supporting partial shipments.
+
+This relational structure ensures data consistency and avoids duplication while enabling quick reporting and insights."
+
+---
+
+**\[Scene: Presenter switches to optimizations and unique features (bulleted list or quick diagram)]**
+
+**Presenter:**
+"To enhance performance and enforce business rules, we’ve included several optimizations:
+
+* **Triggers**: For example, one trigger prevents orders from inactive customers. Another ensures stock levels are automatically updated when an order is placed.
+* **Views**: Simplified reporting tools, like views for active customers, overdue invoices, and order summaries, make it easy to generate insights.
+* **Indexes**: These speed up common queries, like filtering orders by status or joining customers with their orders."
+
+---
+
+**\[Slide: Challenges and future improvements]**
+
+**Presenter:**
+"Of course, no system is perfect. This database currently supports just one warehouse, which might limit scalability for larger businesses. Additionally, orders support only single-line items, so more complex orders would require redesigns.
+
+Despite these limitations, this database is a solid foundation for managing core operations in a straightforward B2B environment."
+
+---
+
+**\[Closing Scene: Presenter smiles and gestures toward the audience]**
+
+**Presenter:**
+"Thanks for watching! This database ensures data integrity, supports key workflows, and provides a solid base for expanding business operations. If you have any questions or feedback, feel free to reach out. See you next time!"
+
+**\[End with a simple outro screen: "Thank you for watching!"]**
+
+---
+
+Let me know if you need further adjustments or visual suggestions for the presentation!
